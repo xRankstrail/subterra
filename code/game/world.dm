@@ -303,13 +303,13 @@ GLOBAL_VAR(restart_counter)
 
 /world/proc/update_status()
 	var/s = ""
-	s += "<center><a href=\"https://subterra.honksquad.com\">"
+	s += "<center>"
 #ifdef MATURESERVER
-	s += "<b>SUBTERRA</b></a> - (<a href=\"https://discord.gg/TpMUr67XbB\">Discord</a>)<br>"
-	s += "<b>Jolly Medieval Fantasy Role-Play</b> ENG, US-West</center><br>"
+	s += "<b>REINO CARPA</b><br>"
+	s += "<b>Fantasía Medieval Oscura</b> ESP, US-East</center><br>"
 #else
-	s += "<b>SUBTERRA</b></a> - (<a href=\"https://discord.gg/TpMUr67XbB\">Discord</a>)<br>"
-	s += "<b>Jolly Medieval Fantasy Role-Play</b> ENG, US-West</center><br>"
+	s += "<b>REINO CARPA</b><br>"
+	s += "<b>Fantasía Medieval Oscura</b> ESP, US-East</center><br>"
 #endif
 //	s += "<img src=\"https://i.imgur.com/beKNAnC.png\"></a></center>"
 
@@ -317,9 +317,9 @@ GLOBAL_VAR(restart_counter)
 #ifdef MATURESERVER
 	s += "\["
 	if(SSticker.current_state <= GAME_STATE_PREGAME)
-		s += "<b>GAME STATUS:</b> IN LOBBY"
+		s += "<b>ESTADO:</b> EN LOBBY"
 	else
-		s += "<b>GAME STATUS:</b> PLAYING"
+		s += "<b>ESTADO:</b> JUGANDO"
 #endif
 	status = s
 	return s

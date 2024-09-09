@@ -4,15 +4,7 @@
 #Ranks will match to those with the same name in admin_ranks.txt, if a match isn't found the user won't be adminned.
 #If SQL-based admin loading is enabled, admins listed here will always be loaded first and will override any duplicate entries in the database
 
-RussMoney = Host
-AngryKnees = Game Admin
-Arivain13 = Game Admin
-SereneLily = Game Admin
-xensky = Game Admin
-Camahoo = Game Admin
-Lightrail = Game Admin
-Skeeyui = Game Admin
-SushiFIsh100 = Game Admin
-Taocat = Game Admin
-notkiwi2 = Game Admin
-aberrantquerist = Game Admin
+Rankstrail459 = Host
+1gnite = Game Admin
+TheJanitor21 = Game Admin
+Qis = Game Admin

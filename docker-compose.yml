@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  subterra:
+    build:
+      context: .
+    ports:
+      - 1213:1213
+      - 1213:1213/udp
+    volumes:
+      - /reino_carpa/data:/data
+      - /reino_carpa/config:/config
